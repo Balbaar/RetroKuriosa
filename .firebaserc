@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "retrokuriosa": {
+      "hosting": {
+        "RetroKuriosa": [
+          "retrokuriosa"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "retrokuriosa"
+  }
+}

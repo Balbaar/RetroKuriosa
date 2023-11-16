@@ -1,0 +1,82 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 0;
+}
+
+.hero img {
+    width: 22.5vw;
+    height: 28.5vw;
+}
+
+.hero .text {
+    grid-column: 1/3;
+    padding-top: 10%;
+}
+
+.hero .text h1 {
+    font-size: 56px;
+    line-height: 56px;
+}
+
+.hero .text p {
+    font-size: 32px;
+    color: gray;
+}
+
+
+.section-pic {
+    margin-top: var(--section-margin);
+    width: var(--section-width);
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-pic > .text {
+    width: 60%;
+}
+
+.section-pic .text h1 {
+    font-size: 48px;
+    line-height: 48px;
+    padding-bottom: 20px;
+}
+
+.section-pic .text h2 {
+    font-size: 32px;
+    line-height: 32px;
+    padding-bottom: 20px;
+}
+
+.section-pic > .text p {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.section-pic img {
+    width: 27vw;
+}
+
+.items {
+    margin-top: var(--section-margin);
+    display: flex;
+    justify-content: space-between;
+    width: var(--section-width);
+}
+
+.item {
+    width: 25vw;
+    background-color: gray;
+}
+
+.item > img {
+    width: 25vw;
+}
+
